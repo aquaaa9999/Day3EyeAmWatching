@@ -1,0 +1,40 @@
+            body{
+  margin: 0;
+  padding: 0;
+  background: url(background.gif);
+ 
+  background-position: center;
+}
+.eyes{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye{
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  width: 70px;
+  height: 70px;
+  background: url(img2.gif);
+  background-position: center;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 5px solid #d4b8ff;
+
+ 
+}
+
